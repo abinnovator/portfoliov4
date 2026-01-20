@@ -85,7 +85,7 @@ const Work = () => {
           </div>
         </div>
         <Link
-          href={"/projects"}
+          href={"/work"}
           className={buttonVariants({
             variant: "default",
             className:
