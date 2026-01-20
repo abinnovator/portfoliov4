@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { Button } from "../ui/button";
+import { Button, buttonVariants } from "../ui/button";
 import Seperator from "../Seperator";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -17,9 +18,16 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto px-4 sm:px-0">
-          <Button className="bg-gray-200 text-black px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-gray-300 transition-colors w-full sm:w-auto">
+          <Link
+            className={buttonVariants({
+              variant: "default",
+              className:
+                "bg-gray-200 text-black px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-gray-300 transition-colors w-full sm:w-auto",
+            })}
+            href="/work"
+          >
             See work
-          </Button>
+          </Link>
           {/* <Button className="bg-gradient-to-r from-[#1F51FF] to-[#133199] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:opacity-90 transition-opacity cursor-pointer w-full sm:w-auto">
             Hire Now
           </Button> */}

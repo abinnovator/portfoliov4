@@ -16,7 +16,7 @@ const Contacts = () => {
       />
       <div className="flex flex-row gap-2 justify-center items-center">
         <Link
-          href={"/projects"}
+          href={"/contact"}
           className={buttonVariants({
             variant: "default",
             className:

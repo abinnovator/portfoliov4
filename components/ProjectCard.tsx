@@ -23,7 +23,7 @@ const ProjectCard = ({
           alt={title}
           width={591}
           height={332}
-          className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+          className="object-cover  transition-transform duration-500 group-hover:scale-105"
         />
       </div>
 
@@ -32,7 +32,7 @@ const ProjectCard = ({
         <h2 className="text-xl font-semibold text-white tracking-tight">
           {title}
         </h2>
-        <p className="text-[#a1a1a1] leading-relaxed text-sm lg:text-base">
+        <p className="text-[#a1a1a1] leading-relaxed text-sm lg:text-base max-w-[500px]">
           {desc}
         </p>
 

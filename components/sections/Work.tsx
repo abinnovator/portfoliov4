@@ -35,9 +35,12 @@ const Work = () => {
                 titleClassName="text-[20px] text-white"
                 descriptionClassName="text-[#B3B3B3] text-white text-[14px] max-w-[481px]"
               />
-              <p className="text-[#B3B3B3] text-[14px] flex flex-row items-center gap-2">
+              <Link
+                href="/work/2"
+                className="text-[#B3B3B3] text-[14px] flex flex-row items-center gap-2"
+              >
                 View Case Study <ArrowRight />
-              </p>
+              </Link>
             </div>
           </div>
           {/* Project Cards */}
@@ -57,9 +60,12 @@ const Work = () => {
                   titleClassName="text-[20px] text-white"
                   descriptionClassName="text-[#B3B3B3] text-white text-[14px] max-w-[481px]"
                 />
-                <p className="text-[#B3B3B3] text-[14px] flex flex-row items-center gap-2">
+                <Link
+                  href={"/work/1"}
+                  className="text-[#B3B3B3] text-[14px] flex flex-row items-center gap-2"
+                >
                   View Case Study <ArrowRight />
-                </p>
+                </Link>
               </div>
             </div>
             <div className="flex flex-row items-center justify-between px-6 py-11">
@@ -77,9 +83,12 @@ const Work = () => {
                   titleClassName="text-[20px] text-white"
                   descriptionClassName="text-[#B3B3B3] text-white text-[14px] max-w-[481px]"
                 />
-                <p className="text-[#B3B3B3] text-[14px] flex flex-row items-center gap-2">
+                <Link
+                  href={"/work/3"}
+                  className="text-[#B3B3B3] text-[14px] flex flex-row items-center gap-2"
+                >
                   View Case Study <ArrowRight />
-                </p>
+                </Link>
               </div>
             </div>
           </div>

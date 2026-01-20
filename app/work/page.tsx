@@ -34,7 +34,7 @@ const Page = () => {
       ref={containerRef}
       className="px-4 sm:px-8 md:px-16 lg:px-28 border-dashed border-[#262626] w-screen overflow-x-hidden"
     >
-      <div className="border-x border-b border-dashed border-[#262626] px-4 sm:px-8 md:px-12 lg:px-20 py-6 sm:py-8 lg:py-10">
+      <div className="border-x border-b border-dashed border-[#262626] px-4 sm:px-8 md:px-12 lg:px-20 py-6 sm:py-8 lg:py-10 space-y-8">
         <Header
           title="Work"
           description="Check out some of my recent projects and case studies."
