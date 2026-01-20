@@ -25,7 +25,7 @@ const Contacts = () => {
         >
           <p className="text-black"> Contact Me</p>
         </Link>
-        <Link
+        {/* <Link
           href={"/projects"}
           className={buttonVariants({
             variant: "default",
@@ -34,7 +34,7 @@ const Contacts = () => {
           })}
         >
           <p className="text-white"> Hire Me</p>
-        </Link>
+        </Link> */}
       </div>
       <Seperator />
     </div>

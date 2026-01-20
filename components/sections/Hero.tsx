@@ -20,9 +20,9 @@ const Hero = () => {
           <Button className="bg-gray-200 text-black px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:bg-gray-300 transition-colors w-full sm:w-auto">
             See work
           </Button>
-          <Button className="bg-gradient-to-r from-[#1F51FF] to-[#133199] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:opacity-90 transition-opacity cursor-pointer w-full sm:w-auto">
+          {/* <Button className="bg-gradient-to-r from-[#1F51FF] to-[#133199] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-base sm:text-lg font-medium hover:opacity-90 transition-opacity cursor-pointer w-full sm:w-auto">
             Hire Now
-          </Button>
+          </Button> */}
         </div>
       </div>
       <Seperator />
